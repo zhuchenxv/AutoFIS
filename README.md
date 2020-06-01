@@ -2,6 +2,7 @@
 AutoFIS: Automatic  Feature Interaction Selection in Factorization  Models for  Click-Through Rate Prediction
 
 This is the tensorflow implementation of AutoFIS in the following paper:
+
 Bin Liu, Chenxu Zhu, Guilin Li, Weinan Zhang, Jincai Lai, Ruiming Tang, Xiuqiang He, Zhenguo Li, Yong Yu. AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction. KDD 2020.  
 
 __init__.py contain some parameter setting and other in main file.
