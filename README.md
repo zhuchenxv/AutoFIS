@@ -15,3 +15,11 @@ Our model AutoFIS has two stages: search stage and retrain stage. You could run 
 run tf_main_autofm.py could apply AutoFIS to FM and it is the main file of AutoFM.
 
 run tf_main_autodeepfm.py could apply AutoFIS to DeepFM and it is the main file of AutoDeepFM.
+
+For example, if there exists 15 feature interactions, in the print log, you may get the architecture parameter after search stage as follows
+**log avg auc all weights for(epoch:None,wt_config:init:0.6+-0(seed=2017) l1:0 l2:0 act:none) 0.01,0.0,0.0,0.0,0.04,0.53,0.32,0.3,0.0,0.0,0.12,0.3,0.0,0.0,0.12,**
+
+Then in the retrain stage, you could set "comb_mask" as follows
+**comb_mask = \[1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1\]**
+
+The third feature interactions are similar to that.
