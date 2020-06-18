@@ -25,3 +25,5 @@ Then in the retrain stage, you could set "comb_mask" as follows
 **comb_mask = \[1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1\]**
 
 The third feature interactions are similar to that.
+
+Any discussion is welcomed, please contact 853974622@qq.com.
