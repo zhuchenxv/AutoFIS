@@ -26,4 +26,4 @@ Then in the retrain stage, you could set "comb_mask" as follows
 
 The third feature interactions are similar to that.
 
-Any discussion is welcomed, please contact 853974622@qq.com.
+Any discussion is welcomed, please contact zhuchenxv@qq.com.
